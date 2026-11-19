@@ -60,7 +60,7 @@
     if (lastFocus) lastFocus.focus();
   }
 
-  Array.prototype.forEach.call(document.querySelectorAll('.gallery__item'), function (item) {
+  Array.prototype.forEach.call(document.querySelectorAll('[data-caption]'), function (item) {
     item.addEventListener('click', function () { openModal(item); });
   });
 
