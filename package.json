@@ -1,0 +1,17 @@
+{
+  "name": "xmasw",
+  "version": "1.0.0",
+  "description": "A personalized digital Christmas card, photo gallery, and holiday itinerary.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
